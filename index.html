@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My First Website</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>This is my free site on GitHub Pages.</p>
-  </body>
-</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+    }
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 30px auto;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>A simple starter template</p>
+  </header>
 
+  <nav>
+    <a href="#about">About</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>Hello! This is my free website hosted on GitHub Pages. You can use this space to introduce yourself or your business.</p>
+    </section>
+
+    <section id="shop" class="card">
+      <h2>Shop</h2>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>Short description of your product.</p>
+        <a href="#">Buy Now</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>Another awesome item.</p>
+        <a href="#">Buy Now</a>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 My Website | Built with ❤️ on GitHub Pages</p>
+  </footer>
+</body>
+</html>
